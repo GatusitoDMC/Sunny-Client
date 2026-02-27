@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "sunny",
+  "version": "${version}",
+  "name": "Sunny Client",
+  "description": "Sunny Client",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.gatu.client.SunnyClient"
+    ]
+  },
+  "mixins": [
+    "sunny.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.gatu.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinClientPlayerEntity",
+    "PlayerMoveC2SPacketMixin",
+    "AccessorMinecraftClient",
+    "MixinClientPlayNetworkHandler",
+    "MixinWorldRenderer"
+
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
