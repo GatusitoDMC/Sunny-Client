@@ -42,8 +42,6 @@ class SunnyClient : ClientModInitializer {
         AnchorAura()
         Offhand()
         CustomPoPSound()
-        TriggerBot()
-
 
         HUD()
 
